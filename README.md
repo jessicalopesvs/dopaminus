@@ -1,14 +1,8 @@
-<p align="center">
-  <img src="icons/logo.svg" width="160" alt="Dopaminus logo: the dopamine molecule crossing a red prohibition sign">
-</p>
-
-<h1 align="center">Dopaminus – Site Blocker</h1>
+# Dopaminus – Site Blocker
 
 A free, lightweight Chrome extension that blocks distracting websites, keywords and YouTube Shorts, so you can spend your attention on what actually matters.
 
 *The name comes from **dopamine**, the chemical behind the "just one more scroll" feeling. Dopaminus is about having less of the cheap, instant kind.*
-
-*The logo is the chemical structure of dopamine (a catechol ring with an ethylamine chain) drawn as the diagonal bar of a "no" sign.*
 
 ![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-red) ![Languages](https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs-lightgrey) ![Price](https://img.shields.io/badge/price-free-brightgreen)
 
@@ -118,10 +112,8 @@ Built with plain JavaScript on **Chrome Manifest V3**, with no frameworks and no
 ├── blocked.html / .js   # Block screen
 ├── styles.css           # Shared styles (light and dark mode)
 ├── _locales/            # Extension name and description (en, pt_BR)
-└── icons/
-    ├── make_logo.py     # Draws the logo from the dopamine structure (Python standard library only)
-    ├── logo*.svg        # Logo source files (full, medium, small, tiny)
-    └── icon*.png        # Icons exported from the SVGs (16, 32, 48, 128 px)
+├── icons/               # Extension icons
+└── make_icons.py        # Script that generates the icons (Python standard library only)
 ```
 
 ---
