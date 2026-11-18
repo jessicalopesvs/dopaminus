@@ -47,7 +47,7 @@ The extension is not on the Chrome Web Store yet. You can install it manually in
 
 1. Download this repository (**Code → Download ZIP**) and unzip it, or clone it:
    ```bash
-   git clone https://github.com/<your-username>/dopaminus.git
+   git clone https://github.com/jessicalopesvs/dopaminus.git
    ```
 2. Open Chrome and go to `chrome://extensions`.
 3. Turn on **Developer mode** (top-right corner).
