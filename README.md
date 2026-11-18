@@ -16,9 +16,11 @@ I wanted a simple tool that **adds friction between me and those habits**. When 
 
 Many popular website blockers are **paid**, or keep their most useful features behind a subscription: keyword blocking, more sites on the list, blocking specific parts of a site. A browser extension that blocks a few websites shouldn't need a monthly fee, so **I decided to build my own** and make it free.
 
+
+
 ### The result
 
-Since I installed it, **my productivity has noticeably increased**. I spend less time switching to social media "for just a minute", I get through my tasks with fewer interruptions, and I don't lose hours to short-video feeds. YouTube is still there for tutorials and long videos, but Shorts no longer pulls me into endless scrolling.
+I used Claude Code to speed up development and shape the extension around my own needs when I noticed the demand, ending up with a tool that blocks exactly what distracts me. Since I installed it, my productivity has noticeably increased. I spend less time switching to social media “for just a minute”, I get through my tasks with fewer interruptions, and I no longer lose hours to short-video feeds. YouTube is still there for tutorials and long videos, but Shorts no longer pulls me into endless scrolling.
 
 ---
 
