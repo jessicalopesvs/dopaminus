@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR" data-i18n-doc-title="blockedPageTitle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site bloqueado</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      min-height: 100vh; display: flex; align-items: center; justify-content: center;
+      padding: 16px; background: var(--surface);
+    }
+    .box {
+      max-width: 480px; width: 100%; text-align: center; background: var(--bg);
+      border: 1px solid var(--border); border-radius: 16px; padding: 40px 28px;
+    }
+    .box img { width: 96px; height: 96px; margin-bottom: 20px; }
+    h1 { font-size: 24px; margin-bottom: 8px; }
+    #site { font-weight: 600; color: var(--accent); word-break: break-all; }
+    #quote { margin: 24px 0; font-style: italic; }
+    .actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <img src="icons/icon128.png" alt="">
+    <h1 data-i18n="blockedHeading"></h1>
+    <div class="muted"><span data-i18n="blockedYou"></span> <span id="site"></span>.</div>
+    <p id="quote" class="muted"></p>
+    <div class="actions">
+      <button id="closeTab" data-i18n="closeTab"></button>
+    </div>
+  </div>
+  <script type="module" src="blocked.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-BR" data-i18n-doc-title="optionsTitle">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloqueador de Sites</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { padding: 32px 16px; }
+    main { max-width: 640px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; gap: 12px; flex-wrap: wrap; }
+    header h1 { font-size: 22px; display: flex; align-items: center; gap: 10px; }
+    header img { width: 32px; height: 32px; }
+    .header-controls { display: flex; align-items: center; gap: 18px; }
+    section { border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+    section h2 { font-size: 16px; margin-bottom: 4px; }
+    section p { margin: 0 0 14px; }
+    .enabled-label { display: flex; align-items: center; gap: 10px; font-weight: 600; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1><img src="icons/icon128.png" alt=""><span data-i18n="appName">Bloqueador de Sites</span></h1>
+      <div class="header-controls">
+        <div class="lang-toggle" role="group" data-i18n-title="language">
+          <button type="button" data-lang="pt">PT</button>
+          <button type="button" data-lang="en">EN</button>
+        </div>
+        <label class="enabled-label">
+          <span id="enabledText"></span>
+          <span class="switch">
+            <input type="checkbox" id="enabled">
+            <span class="slider"></span>
+          </span>
+        </label>
+      </div>
+    </header>
+
+    <section>
+      <h2 data-i18n="sitesTitle"></h2>
+      <p class="muted" data-i18n-html="sitesDesc"></p>
+      <form id="siteForm" class="row">
+        <input type="text" id="siteInput" data-i18n-placeholder="sitePlaceholder" autocomplete="off">
+        <button type="submit" data-i18n="add"></button>
+      </form>
+      <div class="error" id="siteError"></div>
+      <ul class="list" id="siteList"></ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="specialTitle"></h2>
+      <p class="muted" data-i18n="specialDesc"></p>
+      <ul class="list">
+        <li id="shortsRow">
+          <label class="item-label">
+            <span class="switch">
+              <input type="checkbox" id="blockShorts">
+              <span class="slider"></span>
+            </span>
+            <span>
+              <span class="item-name">YouTube Shorts</span><br>
+              <span class="muted special-desc" data-i18n="shortsDesc"></span>
+            </span>
+          </label>
+          <span class="item-status" id="shortsStatus"></span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 data-i18n="keywordsTitle"></h2>
+      <p class="muted" data-i18n-html="keywordsDesc"></p>
+      <form id="keywordForm" class="row">
+        <input type="text" id="keywordInput" data-i18n-placeholder="keywordPlaceholder" autocomplete="off">
+        <button type="submit" data-i18n="add"></button>
+      </form>
+      <div class="error" id="keywordError"></div>
+      <ul class="list" id="keywordList"></ul>
+    </section>
+  </main>
+
+  <script type="module" src="options.js"></script>
+</body>
+</html>

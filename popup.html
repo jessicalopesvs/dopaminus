@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR" data-i18n-doc-title="appName">
+<head>
+  <meta charset="utf-8">
+  <title>Bloqueador de Sites</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { width: 320px; padding: 16px; }
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; gap: 8px; }
+    header h1 { font-size: 16px; display: flex; align-items: center; gap: 8px; }
+    header img { width: 22px; height: 22px; }
+    .header-controls { display: flex; align-items: center; gap: 10px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; }
+    #current { font-size: 15px; font-weight: 600; word-break: break-all; margin: 4px 0 12px; }
+    #toggleBlock { width: 100%; }
+    footer { margin-top: 14px; display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><img src="icons/icon48.png" alt=""><span data-i18n="popupName">Bloqueador</span></h1>
+    <div class="header-controls">
+      <div class="lang-toggle small" role="group" data-i18n-title="language">
+        <button type="button" data-lang="pt">PT</button>
+        <button type="button" data-lang="en">EN</button>
+      </div>
+      <label class="switch" data-i18n-title="toggleAllTitle">
+        <input type="checkbox" id="enabled">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+
+  <div class="card">
+    <div class="muted" data-i18n="currentSite"></div>
+    <div id="current">—</div>
+    <button id="toggleBlock" disabled></button>
+  </div>
+
+  <footer>
+    <span class="muted" id="count"></span>
+    <a href="#" id="openOptions" data-i18n="manageList"></a>
+  </footer>
+
+  <script type="module" src="popup.js"></script>
+</body>
+</html>
