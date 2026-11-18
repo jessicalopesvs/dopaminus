@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<title>Dopaminus</title>
+<circle cx="256.0" cy="256.0" r="230.0" fill="#ffffff" stroke="#d93025" stroke-width="44"/>
+<polygon points="276.4,213.2 280.7,272.7 231.3,306.2 177.6,280.1 173.4,220.6 222.8,187.2" fill="none" stroke="#d93025" stroke-width="21.5" stroke-linejoin="round"/>
+<line x1="257.1" y1="232.6" x2="258.8" y2="256.4" stroke="#d93025" stroke-width="16.1" stroke-linecap="round"/>
+<line x1="224.2" y1="279.8" x2="202.8" y2="269.3" stroke="#d93025" stroke-width="16.1" stroke-linecap="round"/>
+<line x1="199.8" y1="227.7" x2="219.5" y2="214.3" stroke="#d93025" stroke-width="16.1" stroke-linecap="round"/>
+<line x1="222.8" y1="187.2" x2="218.5" y2="127.7" stroke="#d93025" stroke-width="21.5" stroke-linecap="round"/>
+<line x1="173.4" y1="220.6" x2="119.7" y2="194.6" stroke="#d93025" stroke-width="21.5" stroke-linecap="round"/>
+<line x1="280.7" y1="272.7" x2="334.4" y2="298.8" stroke="#d93025" stroke-width="21.5" stroke-linecap="round"/>
+<line x1="334.4" y1="298.8" x2="338.6" y2="358.3" stroke="#d93025" stroke-width="21.5" stroke-linecap="round"/>
+<line x1="338.6" y1="358.3" x2="392.3" y2="384.3" stroke="#d93025" stroke-width="21.5" stroke-linecap="round"/>
+</svg>
