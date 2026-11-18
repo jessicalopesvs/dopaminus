@@ -1,6 +1,8 @@
-# Site Blocker (Bloqueador de Sites)
+# Dopaminus – Site Blocker
 
 A free, lightweight Chrome extension that blocks distracting websites, keywords and YouTube Shorts, so you can spend your attention on what actually matters.
+
+*The name comes from **dopamine**, the chemical behind the "just one more scroll" feeling. Dopaminus is about having less of the cheap, instant kind.*
 
 ![Chrome](https://img.shields.io/badge/Chrome-Manifest%20V3-red) ![Languages](https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs-lightgrey) ![Price](https://img.shields.io/badge/price-free-brightgreen)
 
@@ -45,12 +47,12 @@ The extension is not on the Chrome Web Store yet. You can install it manually in
 
 1. Download this repository (**Code → Download ZIP**) and unzip it, or clone it:
    ```bash
-   git clone https://github.com/<your-username>/<repository-name>.git
+   git clone https://github.com/<your-username>/dopaminus.git
    ```
 2. Open Chrome and go to `chrome://extensions`.
 3. Turn on **Developer mode** (top-right corner).
 4. Click **Load unpacked** and select the project folder (the one that contains `manifest.json`).
-5. Pin the extension: click the puzzle icon in the toolbar, then the pin next to **Site Blocker**.
+5. Pin the extension: click the puzzle icon in the toolbar, then the pin next to **Dopaminus**.
 
 The settings page opens automatically after the first install.
 

@@ -6,11 +6,11 @@ export const DEFAULT_LANG = "pt";
 
 const STRINGS = {
   pt: {
-    appName: "Bloqueador de Sites",
+    appName: "Dopaminus – Bloqueador de Sites",
     language: "Idioma",
 
     // Configurações
-    optionsTitle: "Bloqueador de Sites — Configurações",
+    optionsTitle: "Dopaminus — Configurações",
     enabledOn: "Ativado",
     enabledOff: "Desativado",
     sitesTitle: "Sites bloqueados",
@@ -38,7 +38,7 @@ const STRINGS = {
     errShortKeyword: "Digite pelo menos 2 caracteres.",
 
     // Popup
-    popupName: "Bloqueador",
+    popupName: "Dopaminus",
     toggleAllTitle: "Ativar/desativar bloqueio",
     currentSite: "Site atual",
     unsupported: "Página não suportada",
@@ -69,10 +69,10 @@ const STRINGS = {
   },
 
   en: {
-    appName: "Site Blocker",
+    appName: "Dopaminus – Site Blocker",
     language: "Language",
 
-    optionsTitle: "Site Blocker — Settings",
+    optionsTitle: "Dopaminus — Settings",
     enabledOn: "On",
     enabledOff: "Off",
     sitesTitle: "Blocked sites",
@@ -99,7 +99,7 @@ const STRINGS = {
     errDuplicate: "{item} is already on the list.",
     errShortKeyword: "Type at least 2 characters.",
 
-    popupName: "Blocker",
+    popupName: "Dopaminus",
     toggleAllTitle: "Turn blocking on/off",
     currentSite: "Current site",
     unsupported: "Page not supported",
